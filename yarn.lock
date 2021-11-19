@@ -4530,8 +4530,9 @@
   dependencies:
     "is-arrayish" "^0.2.1"
 
-"error-message-reader@file:../error-message-reader":
-  "resolved" "file:../error-message-reader"
+"error-message-reader@^0.0.1-alpha":
+  "integrity" "sha512-zDDxDWlZidFFGa4O/cNLxLY76rsB8JpdQUf1Sj3CmpmjA8VspGHIdGXkLcd/Pxiy+miAcUeueNY/Y7BKurMKJw=="
+  "resolved" "https://registry.npmjs.org/error-message-reader/-/error-message-reader-0.0.1-alpha.tgz"
   "version" "0.0.1-alpha"
 
 "error-stack-parser@^2.0.6":

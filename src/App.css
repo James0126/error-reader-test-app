@@ -1,13 +1,14 @@
 td {
-  border: 1px solid #333;
   padding: 10px;
+  border: 1px solid #333;
 }
 
 table {
-  text-align: center;
+  border-collapse: collapse;
 }
 
 .title {
   font-weight: bolder;
   font-size: 20px;
+  background-color: white;
 }

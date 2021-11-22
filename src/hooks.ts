@@ -2,15 +2,6 @@ import { LCDClient } from "@terra-money/terra.js";
 import axios from "axios";
 import { useQuery } from "react-query";
 
-export const useLCD = () => {
-  const lcd = new LCDClient({
-    URL: `https://lcd.terra.dev`,
-    chainID: "columbus-5",
-  });
-
-  return lcd;
-};
-
 type NetworkName = string;
 type Address = string;
 type ContractData = Record<NetworkName, Record<Address, ContractInfo>>;
@@ -32,6 +23,14 @@ interface ContractInfo {
 
 const TERRA_ASSETS = "https://assets.terra.money";
 
+export const useLCD = () => {
+  const lcd = new LCDClient({
+    URL: `https://lcd.terra.dev`,
+    chainID: "columbus-5",
+  });
+  return lcd;
+};
+
 export const useContracts = () => {
   const config = { baseURL: TERRA_ASSETS };
   return useQuery("Contracts", async () => {
@@ -45,8 +44,13 @@ export const useContracts = () => {
 
 export const useWhitelist = () => {
   const config = { baseURL: TERRA_ASSETS };
-  return useQuery("Contracts", async () => {
+  return useQuery("Tokens", async () => {
     const { data } = await axios.get<WhitelistData>("cw20/tokens.json", config);
     return data["mainnet"];
   });
+};
+
+export const useTxInfo = (hash: string) => {
+  const lcd = useLCD();
+  return useQuery([hash], () => lcd.tx.txInfo(hash));
 };

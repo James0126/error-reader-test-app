@@ -1,9 +1,12 @@
-import "./App.css";
-import csvFile from "./csv/data.csv";
-import { csv } from "d3";
 import { useEffect, useState } from "react";
-import Data from "./Data";
 import { QueryClient, QueryClientProvider } from "react-query";
+import { csv } from "d3";
+import csvFile from "./csv/data.csv";
+import TxHash from "./TxHash";
+import Contract from "./Contract";
+import "./App.css";
+
+export const FINDER = "https://finder.terra.money";
 
 const queryClient = new QueryClient({
   defaultOptions: {
@@ -25,43 +28,39 @@ const App = () => {
       <table>
         <tbody>
           <tr className="title">
+            <td>Index</td>
             <td>Hash</td>
-            <td>Protocol</td>
+            <td>Contract</td>
             <td>MsgType</td>
-            <td>RawLog</td>
+            <td>Raw Error Message</td>
           </tr>
 
           {data?.map((obj: any, index: number) => {
             const { Hash: hash, RawLog: log } = obj;
 
             return (
-              <>
-                <tr key={index} className="data">
-                  <td>{hash}</td>
-                  {log.includes("failed to execute message") ? (
-                    <Data hash={hash} />
-                  ) : (
-                    <>
-                      <td></td>
-                      <td></td>
-                    </>
-                  )}
-                  <td>{log}</td>
-                </tr>
-              </>
+              <tr key={index} className="data">
+                <td>{index}</td>
+                <td>
+                  <a
+                    href={`${FINDER}/mainnet/tx/${hash}`}
+                    onClick={(e) => e.stopPropagation()}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    {hash}
+                  </a>
+                </td>
+                <td>
+                  <Contract hash={hash} rawLog={log} />
+                </td>
+                <td>
+                  <TxHash hash={hash} rawLog={log} />
+                </td>
+                <td>{log}</td>
+              </tr>
             );
           })}
-
-          {/* {errorMessages.map(
-        (msg, index) =>
-          errorReader(msg) && (
-            <tr key={index} className="data">
-              <td>{index + 1}</td>
-              <td>{msg}</td>
-              <td>{errorReader(msg)}</td>
-            </tr>
-          )
-      )} */}
         </tbody>
       </table>
     </QueryClientProvider>

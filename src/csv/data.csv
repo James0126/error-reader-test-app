@@ -1,105 +1,17 @@
 Hash,RawLog
-d4a54862e6ee6ecd7e422df3f5f3ed5d5d803388b985ddadb4fa01e78c58bc3c,"block height: 4961550, timeout height: 4961549: tx timeout height"
-bf862c12ec535db7c741eed6626453537d23dabf45941705afc983df4fb57b5d,failed to execute message; message index: 1: Already claimed: execute wasm contract failed
-b239f1bf11bdeca059f3285e78fc1a2deff85d81764eaa4104b7dee10b0da2fc,failed to execute message; message index: 1: connection handshake open try failed: connection fields mismatch previous connection fields: invalid connection
-4ff93840e6ad34c73c7daa702a36c7c7af43e09ee35cfdb0fa336fadfe220442,failed to execute message; message index: 1: dispatch: Contract exception: execute wasm contract failed
-34fbe1b5c62d25374d48fa31c63fd108f305b1d38710a5537b8c42e4649bf7d2,failed to execute message; message index: 1: dispatch: contract terra1nptrquul6qtuj08drysqccnztldvehfud6zec3: not found
-9839494139d2b6773cf7fdf73a2be9dfc1d802cd7bebb768e84a8a84c92537ee,failed to execute message; message index: 1: dispatch: dispatch: dispatch: reply: dispatch: Invalid zero amount: execute wasm contract failed
-9e22de16ba7badaf4d0155ad911ca48774103fc9f9f9f8a496f904d00f53b681,failed to execute message; message index: 1: dispatch: dispatch: Gateway/Pool: deposit user cap exceeded. (cap: Uint256(0)): execute wasm contract failed
-7d9e2c6c751c8ad5e673dde21e30f824b7e253b9097a7c5d38fe48bcb7cb94f9,failed to execute message; message index: 1: dispatch: dispatch: Generic error: Gateway/Pool: current blocktime does not satisfies configured deposit time range. origin: (1635339600 ~): execute wasm contract failed
-55c7a5f2e83270806f2b1473999e0fcf212d1bf3b1e826f20737ce44c576b3b9,failed to execute message; message index: 1: dispatch: dispatch: Invalid zero amount: execute wasm contract failed
-0c3a57c4d9dd53de908425e0ba8f119a0d0541efcb64b53b1baba004b3cd4334,failed to execute message; message index: 1: dispatch: dispatch: reply: dispatch: Invalid zero amount: execute wasm contract failed
-456856563fae6b47745674adb67c58ff0737f1d5a478f0d7f55bd0002380d7ad,failed to execute message; message index: 1: dispatch: Error parsing into type terraswap::pair::Cw20HookMsg: Error parsing decimal '0.0011013537875704535': Generic error: Cannot parse more than 18 fractional digits: execute wasm contract failed
-3305093accdbf89095c73c8db8a21e8726b5aa4e801a6d76b14881ac1d72ebf6,failed to execute message; message index: 1: dispatch: Generic error: Cannot liquidate a safely collateralized position: execute wasm contract failed
-da66e5f5ddb99d8c9a90af62fb58c4e10f99f6a65c59fb1ed458394c31b832be,failed to execute message; message index: 1: dispatch: Generic error: Cannot liquidate more than the position amount: execute wasm contract failed
-31a4d5234e24753d84360e615d9d633249a6c88044eac09a2fb46bc68c1d7847,failed to execute message; message index: 1: dispatch: Invalid zero amount: execute wasm contract failed
-231ea8f2ce754e18b60c1434d89f8d129190c2e98516c668f3b5ca54fe1522cf,failed to execute message; message index: 1: dispatch: Max slippage assertion: execute wasm contract failed
-0012a5708e44cdbbe0ac580f155149fdb7a8f115846d41ed331ffacb62901b1a,failed to execute message; message index: 1: dispatch: Max spread assertion: execute wasm contract failed
-b07a89ff89b4fb5a7f776179134d0c91939fbdbe6666bdc92b12260e24ee11fa,failed to execute message; message index: 1: dispatch: Minting cannot exceed the cap: execute wasm contract failed
-5f117dcddbd81033b6e45a62a05e81aafd8eb8fd28a3cfd714692c5abb93cc72,failed to execute message; message index: 1: dispatch: mirror_mint::state::Position not found: execute wasm contract failed
-dc3b541bc1a90ba4127e733e2367a42ebe292752b8bd217bc4ddc259d0473f18,failed to execute message; message index: 1: dispatch: Overflow: Cannot Sub with 0 and 10000: execute wasm contract failed
-12446a33de6b89a00dab8d9508ed83e3bfcc68f8922c99c8396d20b637f906da,failed to execute message; message index: 1: Error parsing into type cw20_elastic::msg::ExecuteMsg: invalid base64: 'eyJzd2FwIjp7ImJlbGllZl9wcmljZSI6IjEuNjQzOTM5NjY0MjI3NDU4OSIsIm1heF9zcHJlYWQiOiIwLjAwMiJ9fQ==': execute wasm contract failed
-9566345811590da6c1e338e017159d5517485a81ca4819ac6460327f9900f7f2,failed to execute message; message index: 1: Error parsing into type cw20_elastic::msg::ExecuteMsg: invalid base64: 'eyJzd2FwIjp7ImJlbGllZl9wcmljZSI6IjEuNjUxMDcxMTEwMjM0OTQwNSIsIm1heF9zcHJlYWQiOiIwLjAwMiJ9fQ==': execute wasm contract failed
-97d9752fa69069945721ee959fe939c81f504b765dc2f76b04045ff035584d89,failed to execute message; message index: 1: Error parsing into type cw20_elastic::msg::ExecuteMsg: invalid base64: b'eyJzd2FwIjp7ImJlbGllZl9wcmljZSI6IjEuNjUxMDcxMTEwMjM0OTQwNSIsIm1heF9zcHJlYWQiOiIwLjAwMiJ9fQ==': execute wasm contract failed
-37f81f93e49da2fdf416d746ff4ea725879eab3d70f4c10e2bdaeabf9178b1d7,"failed to execute message; message index: 1: Error parsing into type cw20_legacy::msg::ExecuteMsg: Expected to parse either a `true`, `false`, or a `null`.: execute wasm contract failed"
-397734d51fb72afb81d7d831afd3fdba3faeef7fcfa4ecf277ffc12498f003b1,failed to execute message; message index: 1: Error parsing into type cw20_legacy::msg::ExecuteMsg: invalid Uint128 '2342.8460400179088' - invalid digit found in string: execute wasm contract failed
-b8ae387138ee2b8317322887a00bb88149031842a1cd2443e6cc2bbac3cffd3c,failed to execute message; message index: 1: Error parsing into type mirror_airdrop::msg::ExecuteMsg: Invalid number.: execute wasm contract failed
-89caa208f20f0e1652f7ce08540afeb64e6b079a53c5348b51954b87e390c626,failed to execute message; message index: 1: Error parsing into type services::staking::ExecuteMsg: Invalid type: execute wasm contract failed
-edaf854f9488934a1f505b954d1594504c9ba4db76c1f0ba6df4c451de80eee5,"failed to execute message; message index: 1: Error parsing into type terraswap::pair::ExecuteMsg: unknown variant `send`, expected one of `receive`, `provide_liquidity`, `swap`: execute wasm contract failed"
-486ea4905cbe2c6d4183da4982127523364faa325e36b9081f801582a26bf733,"failed to execute message; message index: 1: Generic error: {""msg"": ""slippage_tolerance assertion""}: execute wasm contract failed"
-50c7c8c6a88ec189151ec9d5f53af6e8045be6ba3a2cff58d2b128e8843581c4,"failed to execute message; message index: 1: Generic error: addr_canonicalize errored: decoding bech32 failed: checksum failed. Expected qaqg0w, got yekxy0.: execute wasm contract failed"
-f5bfee6e00a30311c1065e7b8b15fbb1456d54bf3ce114ec7d98c27e9edb3c2c,failed to execute message; message index: 1: Generic error: Cannot mint asset over than min collateral ratio: execute wasm contract failed
-39c6b1b1a4e8ea5aa70663c5fc9e8667977d775d47206c225ae9974621b8c394,failed to execute message; message index: 1: Generic error: Cannot withdraw collateral over than minimum collateral ratio: execute wasm contract failed
-ed2d22532451e4d2d31990980dbccbe61ac026de0c48d1ed51b25e803acf7f4e,failed to execute message; message index: 1: Generic error: Cannot withdraw more than you provide: execute wasm contract failed
-9073aa9db94f23ff16f91fbe4bb6b9945306cd43c3d2e8b4305e3c74b042868e,failed to execute message; message index: 1: Generic error: Collateral price is too old: execute wasm contract failed
-ad8a111b26c8fe3411820333409ba92667cf53e093a3ff75aa5f7c44cade1266,failed to execute message; message index: 1: Generic error: Native token balance mismatch between the argument and the transferred: execute wasm contract failed
-19216faa84b47859fe87a6351b8d84ce2733370dd8a49c2e522533fc6cbcd744,failed to execute message; message index: 1: Generic error: order already filled or cancelled: execute wasm contract failed
-010e11c53acb2c5a42d8cc0752ecbd7422d1ae8abebb87c59314643dfd915250,failed to execute message; message index: 1: Generic error: Price is too old: execute wasm contract failed
-ca045976a71faef72b82f033b4a6b969e176321129dcc4c5bdab8b53aa076f44,failed to execute message; message index: 1: Generic error: slippage_tolerance cannot bigger than 1: execute wasm contract failed
-6d8a00c13d2ef2b7cf549fe91113c2b102242de2ddf55f86b1e3b425260d8f6c,failed to execute message; message index: 1: Generic error: terra1mmly4jprsccufaymvc3r9qsm358wt076we6v8u attempting to withdraw 1 of nft
-3f9757a31fefda4240f1e67bb5601d5937ce8e31a891862d79336fce4e9c448b,failed to execute message; message index: 1: Invalid zero amount: execute wasm contract failed
-4e0a2c5db07b9b61d82e501f9fc00bf55651f92b98d2ee51ec024052c3ffcde3,failed to execute message; message index: 1: Max slippage assertion: execute wasm contract failed
-fb7ddbdd25bf3736e2ec6899c7a92f88e11278da9e236bd8ef0884580f3c453b,failed to execute message; message index: 1: Max spread assertion: execute wasm contract failed
-197b3612648e75e77167bea2ffd164e870c54b13271643513cb969ab2be1d395,failed to execute message; message index: 1: Overflow: Cannot Sub with 10051708681 and 10063985461: execute wasm contract failed
-edda6408f94ad9b468adcae3f513ca7868eb5c5af9b890e8a5e368b13deaec7c,failed to execute message; message index: 1: receive packet verification failed: block height >= packet timeout height (5-4989639 >= 5-4989634): packet timeout
-606085e5569346b8d1f1208d983ef0fa5470380259543d00f14a58c390115491,failed to execute message; message index: 1: timeout packet verification failed: packet timeout has not been reached for height or timestamp: packet timeout
-49504a7b5e6dba366b29e9224354ff475fb403bcca9b9b6aae5a0380606eaf2b,failed to execute message; message index: 10: Already claimed: execute wasm contract failed
-1a18c09cd36e962a25ca7ce035ae6da44c5d518ffb23ebd5fa85836ca6bd8bd2,failed to execute message; message index: 10: no delegation distribution info
-47b59b4603fa90a4bd8886c512afbc2be2a0c1e3ea5033c8ddfd79bf4d45ce5f,failed to execute message; message index: 11: Already claimed: execute wasm contract failed
-833132ba7225459145d2b98a19b5c001e8dbec7d4c341d798ce767d6f4b7d7ee,failed to execute message; message index: 2: Asset mismatch: execute wasm contract failed
-4d455f294165cfb3f0615a74692e23f03fe66fe7888c1315e01f7ab99921e175,failed to execute message; message index: 2: dispatch: dispatch: dispatch: reply: dispatch: Invalid zero amount: execute wasm contract failed
-fc1465bc7b3edf0041d33724a562116e9dc94269373ba4e4ea7e33a0483515c1,"failed to execute message; message index: 2: dispatch: dispatch: Generic error: assertion failed; minimum receive amount: 10013112458, swap amount: 9921403436: execute wasm contract failed"
-a3b977429fd6b538b83504fb2b43e2e0daa5211415ee77844bdccc7800acd4fd,failed to execute message; message index: 2: dispatch: dispatch: reply: dispatch: Invalid zero amount: execute wasm contract failed
-43ef1d8428cba8cd746ae3974a5fabab68028c8a440eda1dfd57940cfb06c5b1,failed to execute message; message index: 2: dispatch: Error parsing into type terraswap::pair::Cw20HookMsg: Error parsing decimal '0.0070750000000000006': Generic error: Cannot parse more than 18 fractional digits: execute wasm contract failed
-9b8d822719f80ec94d224c163be771f740d49a2fc276fb9e26806e7a58b67102,failed to execute message; message index: 2: dispatch: Error parsing into type terraswap::pair::Cw20HookMsg: Error parsing decimal '0.0075250000000000004': Generic error: Cannot parse more than 18 fractional digits: execute wasm contract failed
-dca35d130235d9bad9830872d4266d2a04359baaa805c14bd2e1f7832937011d,failed to execute message; message index: 2: dispatch: Error parsing into type terraswap::router::Cw20HookMsg: invalid Uint128 '96307863.3' - invalid digit found in string: execute wasm contract failed
-9106664e9197f8e31734296e34b289ec3fce2867fd4d4b2fe9a62029632edd7a,failed to execute message; message index: 2: dispatch: Generic error: Cannot liquidate a safely collateralized position: execute wasm contract failed
-b2d183e3df3f687f7df513800d866f181bb5bc0e8b6d4516b8022e42caba91dc,failed to execute message; message index: 2: dispatch: Generic error: Cannot liquidate more than the position amount: execute wasm contract failed
-4b881529827313fb6b937862b3a037ccf84c95df86732527f7e802f36f5fb840,failed to execute message; message index: 2: dispatch: Max slippage assertion: execute wasm contract failed
-1af6407d7161e919488160b057b5dd4c40506600b6cd443899a176ede6188fac,failed to execute message; message index: 2: dispatch: Max spread assertion: execute wasm contract failed
-1a5d0b978d998a1c657d86a1e21f1d8a38fdee7af9b10f18ec578cc2a0af7847,failed to execute message; message index: 2: dispatch: mirror_mint::state::Position not found: execute wasm contract failed
-bc4e427265e69d1a81ba7b9cbe744a4ac50513dd5e336a83e7e6e9142983af4b,failed to execute message; message index: 2: dispatch: Overflow: Cannot Sub with 943931 and 2000000: execute wasm contract failed
-8be9330580ba53a00b2d4a49521cf48d03ec7c7bcec5cbd6a3a98697fe5cb4a8,"failed to execute message; message index: 2: Generic error: addr_canonicalize errored: decoding bech32 failed: checksum failed. Expected qaqg0w, got yekxy0.: execute wasm contract failed"
-54c14a4b6cc1f10d038109f52b95978c2424cbb31c626a2ef471af2e10d7f112,failed to execute message; message index: 2: Generic error: unauthorized: execute wasm contract failed
-12f5355fc3f6bd17fd8baa04bf98e1d100880a14e4c6bf7332ea6d3e885801c2,failed to execute message; message index: 2: Max slippage assertion: execute wasm contract failed
-887ee7de0e346dd469c920cd058299e394450ff1c65c687a8f60a7f7c306e2dc,failed to execute message; message index: 2: Max spread assertion: execute wasm contract failed
-6ef66649d2eb0a6698b05c2c2dcdf7240b8aa1136b7cb4c65221e63e5ffb9fb6,failed to execute message; message index: 2: Overflow: Cannot Sub with 103255236 and 103255271: execute wasm contract failed
-d19ec9b29e5e986aa0daae7f1f2e760743956d60b46cc168dbff951633147be7,failed to execute message; message index: 2: Overflow: Cannot Sub with 91066134 and 91744483: execute wasm contract failed
-f418b0f7cd1c80b92c94ea03b33a7d1f4978c1c94c56f8c570b9ba2e9d909d29,"failed to execute message; message index: 20: Generic error: addr_canonicalize errored: decoding bech32 failed: checksum failed. Expected n6dym9, got ac4d0c.: execute wasm contract failed"
-3855a1b780a7dacf22036f545fa24f58cab84edc9b59acee5e3d853ed058a0c9,"failed to execute message; message index: 23: Generic error: addr_canonicalize errored: decoding bech32 failed: checksum failed. Expected q3lu8p, got q3luxs.: execute wasm contract failed"
-b85af3cbcfbdb914846ddddc2bbeff7be2c8eb32bffd02607bb34d400df92dec,failed to execute message; message index: 29: Generic error: addr_canonicalize errored: decoding bech32 failed: string not all lowercase or all uppercase: execute wasm contract failed
-09bee1b9e047b85a9e4c090fadd74e1b8dfed31bf6130e4fb32488680d9315b1,failed to execute message; message index: 3: Already claimed: execute wasm contract failed
-2234a8dc614917086b5923aaa05cb1463669b83d4fb7b0d417658f1ea9ff4d52,failed to execute message; message index: 3: dispatch: dispatch: reply: dispatch: Invalid zero amount: execute wasm contract failed
-985bb061f1141647616a870dd3fd393e6f43a9a47cec006a81ab6c6d3daf0977,failed to execute message; message index: 3: dispatch: Max spread assertion: execute wasm contract failed
-76428ee3e2675da22800298be3dbc25d6c3f563c43872fe00bac7a30ce0b5fc3,failed to execute message; message index: 3: Max slippage assertion: execute wasm contract failed
-c14021d900f90e0a8bef10d6b6086f48334efc1ef037879af510ea51c7a365d8,failed to execute message; message index: 3: Max spread assertion: execute wasm contract failed
-1d56156a95607464a71a67eecfe4acf308c036dafc980b5f134d3990bc7b44f9,failed to execute message; message index: 3: no delegation distribution info
-37b0e2905888d00d7e798bbc2dada193dec79586e465d0d1c809cca52e1f4518,failed to execute message; message index: 3: Overflow: Cannot Sub with 2343405 and 2502799: execute wasm contract failed
-ddf113e9f4338500e4cfab48295bb489b22dbe7c44860c3af03b7ea85b30690e,failed to execute message; message index: 4: Already claimed: execute wasm contract failed
-ab00b75d7913aec13df49b80d15fef2298235970c0f281bf31bc8219ca0bf1f2,failed to execute message; message index: 4: dispatch: Error calling the VM: Error executing Wasm: Wasmer runtime error: RuntimeError: unreachable: execute wasm contract failed
-28782d910d8e180379c3fc9fd2aed38afa6be373eca5ce59f3d247537fbea783,failed to execute message; message index: 4: Generic error: addr_canonicalize errored: decoding bech32 failed: invalid character in string: ' ': execute wasm contract failed
-039c24c8ae09de69985341a1a841ab96332056aa149d660c1776d4692ee50f67,failed to execute message; message index: 4: no delegation distribution info
-909c5d4c5c2cbcbaf987a88a36281a5d26ae30eb2ef3e2e130a2293ebcdd8182,failed to execute message; message index: 4: Overflow: Cannot Sub with 36864040738 and 36922079533: execute wasm contract failed
-9fc6fb149f98f64df006e1e41bf257165ec184e79b6412cbe150e0c414b9f53a,failed to execute message; message index: 5: 17389338uluna is smaller than 17394886uluna: insufficient funds
-15c9e1ff5c59a3f28c8a99d4de9b7bf4d11d850ec59188d7c79f605bad19f8e0,failed to execute message; message index: 5: Already claimed: execute wasm contract failed
-aeedd03406436554e20e55f5d9ab816d30d40429cfaa672c3defb9205cbd4ddf,failed to execute message; message index: 5: Max slippage assertion: execute wasm contract failed
-8867b9551f691f483ba0fb6a725a2d977e10c921b069d26eeb7be9a4bad600ab,failed to execute message; message index: 6: Already claimed: execute wasm contract failed
-0a173fd6ceeb1021169cf579515a23c8766cca3ec51805eb7b807d2ca268ab23,failed to execute message; message index: 6: no delegation distribution info
-ded4f42bae7fd7cf9dca9355fe82b4f3d3baa0d2194b9f24cd1aea412c692a29,failed to execute message; message index: 7: Already claimed: execute wasm contract failed
-3dda6736950164f80b97f1a46de7768198a29363df6b9aeed1597d9c1bf798b5,failed to execute message; message index: 7: dispatch: Error calling the VM: Error executing Wasm: Wasmer runtime error: RuntimeError: unreachable: execute wasm contract failed
-fe9d35560e70c61af80eb25f7372d2a53458dd6cd57ba5ef33a6697a20fd3f62,failed to execute message; message index: 8: Already claimed: execute wasm contract failed
-7b8c13ef16b03d3cd0634cc4490b95813f52bbb937c52e174c40188886f7dded,failed to execute message; message index: 8: UnavailabledName: execute wasm contract failed
-0d35eaefc84534520bbe562bf1b9077d174552aec4bb5fcf4af0dc2c66f21d31,failed to execute message; message index: 9: Already claimed: execute wasm contract failed
-7dfb46d09dd35c6b428855d53a6e1834677b3c74d1b75f9d7ae01f1421cbc952,failed to execute message; message index: 9: dispatch: Error calling the VM: Error executing Wasm: Wasmer runtime error: RuntimeError: unreachable: execute wasm contract failed
-4da44d6c40377a80012a2362bd07309afe3d301e601f036fbc13b0dbac612492,"failed to execute message; message index: 99: Generic error: addr_canonicalize errored: decoding bech32 failed: checksum failed. Expected llclpa, got 6ejs3w.: execute wasm contract failed"
-7a22a19ca343fa4020a33347611f86ebd54934a724fd272da7f13733ec296e8d,"out of gas in location: Compiling WASM Bytes Cost; gasWanted: 1500000, gasUsed: 1762122: out of gas"
-e12fe066dc50554c607354ef320833cee757373f0dc14091ed47a0dbf7ef7357,"out of gas in location: Contract Execution; gasWanted: 924932, gasUsed: 276450: out of gas"
-fdfea62d85f6c87a4af99e2d740ccb416b44e497b0e12cc360c840e074275a41,"out of gas in location: Delete; gasWanted: 200000, gasUsed: 200121: out of gas"
-23d7dd2648c047b592f65e52ccf0f9e3f278d2f7c72d050313c8dd5d8bdfce9f,"out of gas in location: Event Cost; gasWanted: 257000, gasUsed: 73363: out of gas"
-39001740af13e827a372a5a58f83df44595dc6fbca39b76fa42c22d17dd6fe32,"out of gas in location: Loading CosmWasm module: execute; gasWanted: 100000, gasUsed: 59634: out of gas"
-4f4be3216df6ad0f63431d3305b29e07add364bc72a876cb2edaf724c8a5b743,"out of gas in location: Loading CosmWasm module: init; gasWanted: 250000, gasUsed: 53274: out of gas"
-c296bec367d70f6021ec2b5bea4301eb2f6afb8b7b3e25b5bec043a813f74f2a,"out of gas in location: ReadFlat; gasWanted: 100000, gasUsed: 54974: out of gas"
-b71b7055a64f9a99382351e6e59fd4c882e6f1ef2d9b4499dcbac8d4793aa58d,"out of gas in location: ReadPerByte; gasWanted: 1150286, gasUsed: 53304: out of gas"
-ba7fd53a8e427b4d0c3722995587242ef4aed8d244a0c328d8b5aafef7e48b94,"out of gas in location: Registering contract to the store; gasWanted: 200000, gasUsed: 53254: out of gas"
-ef7475cf45cd72489417e21bb542ce34142511e41ab655a9cf529bbc43f797b3,"out of gas in location: WriteFlat; gasWanted: 120000, gasUsed: 67474: out of gas"
-e4c38941d2e5deb300691617ffd6fce3d6c6ed0d916ca4d06563afa8a36c3e4b,"out of gas in location: WritePerByte; gasWanted: 100000, gasUsed: 105209: out of gas"
+39e8643fb49ba84c1bfb8c65af747583d89882f94edc1134de6d3b9f5e8301df,failed to execute message; message index: 0: 3441748711uusd is smaller than 3445000000uusd: insufficient funds,
+f7bcf56d43fa64ed70db0ec8f915d42c4e25eec810e7817f34814d6b8fbdced0,account sequence mismatch, expected 1002347, got 1002303: incorrect account sequence
+16b2c0d2f8e34453bb18bef9eb5be676df65004af79c63c5d7395d4a50b376fe,out of gas in location: WritePerByte; gasWanted: 300000, gasUsed: 302082: out of gas
+0d4f002adf4926679f57cb60dbdff8fc8e4a434c00b8f6ea7f25a56454ca93ee,failed to execute message; message index: 1: Overflow: Cannot Sub with 15350026152 and 15351267035: execute wasm contract failed
+7e1e4b1adb818dbe647de3e52162b4f992f20e8bba60249b00644b8be3f6dcb8,failed to execute message; message index: 0: Overflow: Cannot Sub with 39877931 and 548670000: execute wasm contract failed
+a9adb7dbcfb0fe67bfaa385c5d08328dde1568275bfe6bf90558c2005ddbc822,failed to execute message; message index: 0: Generic error: Poll is not in progress: execute wasm contract failed
+1ea4e64bf68ada7ebe36bfa30459a371111d1db0d2a29c2e31d414ced398f69c,failed to execute message; message index: 0: Generic error: Poll is not in passed status: execute wasm contract failed
+21083b944772e5214ebc69a33d3f40f685cc35a8a667badd726e46ab4b0c77a8,failed to execute message; message index: 0: Generic error: Price is too old: execute wasm contract failed
+0d07feab28831eb4b6283d732d31cee52bc5fceef1efd039896dfaf496ad2866,failed to execute message; message index: 0: Generic error: order already filled or cancelled: execute wasm contract failed
+d7575faebe873d54f1fdbb218acdc6436f29105dec44adf7f4f2c1ec5eb986dd,failed to execute message; message index: 0: Generic error: order already expired: execute wasm contract failed
+692d0bcd4a27b3411d439a973f97e2cbae88f9c080d79c43e8ca53f734ab8647,failed to execute message; message index: 0: Generic error: auction is already started: execute wasm contract failed
+3efb1e9023e342985a3b81d1f70cf0a44fffa2662f4681ca2a503a2665bdaf1c,failed to execute message; message index: 0: Generic error: all NFTs sold out!: execute wasm contract failed
+9482f6ee91550fd2532865989bd09e1b219d3e94d45354e44260004785a1564d,failed to execute message; message index: 0: Generic error: already settled: execute wasm contract failed
+5b1dd9f104f604765984d284c6276e376fca880322960c8c58612239245e16f6,failed to execute message; message index: 0: Generic error: already claimed: execute wasm contract failed
+206b8ec5a29f0b35aa7ff75c3492e78e1bae3bfecf40490289d31a5f62a9df9a,failed to execute message; message index: 0: Generic error: bid amount too low: execute wasm contract failed
+4dadb39091c18d448e9c4edee2ba7ed6e3e1a484b1375aa34622f47f1829cb70,failed to execute message; message index: 0: dispatch: Generic error: assertion failed; minimum receive amount: 600000000, swap amount: 598436733: execute wasm contract failed

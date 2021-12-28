@@ -1,7 +1,6 @@
 import { useQuery } from "react-query";
 import { LCDClient, TxInfo } from "@terra-money/terra.js";
 import * as ruleset from "@terra-money/log-finder-ruleset";
-import { TxDescription } from "wonjm-test-lib3";
 
 const { createActionRuleSet, getTxCanonicalMsgs, createLogMatcherForActions } =
   ruleset;
@@ -44,23 +43,7 @@ const Paper = ({ hash }: { hash: string }) => {
 
   //   txInfo && console.log(getCanonicalMsgs(txInfo));
 
-  return txInfo ? (
-    <>
-      {getCanonicalMsgs(txInfo)[0]?.canonicalMsg.map((str) => (
-        <TxDescription
-          network={{
-            chainID: config.testnet.chainID,
-            URL: config.testnet.URL,
-            name: config.testnet.name,
-          }}
-        >
-          {str}
-        </TxDescription>
-      ))}
-    </>
-  ) : (
-    <></>
-  );
+  return txInfo ? <></> : <></>;
 };
 
 export default Paper;

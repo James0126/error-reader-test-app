@@ -9,11 +9,6 @@ const ReplaceSentence = [
   "reply",
 ];
 
-// export const REGEXP = {
-//   COIN: /\d+((terra1[a-z0-9]{38})|(u[a-z]{1,4}))/g,
-//   IBC: /(ibc)/g,
-// };
-
 const Parse = ({ msg }: { msg: string }) => {
   const failedMsgArray = msg
     .split(":")
@@ -33,7 +28,7 @@ const Parse = ({ msg }: { msg: string }) => {
 
   return (
     <>
-      <b>Reader</b> : {readError(msg) || str}
+      <b>Parse</b> : {readError(msg) || str}
       <br />
       <br />
       <b>Raw Logs</b> : {msg}

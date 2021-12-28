@@ -1,18 +1,18 @@
+import readError from "error-message-reader";
+
 const ReplaceSentence = [
   "failed to execute message; message index",
   "reply execute wasm contract failed",
   "execute wasm contract failed",
-  "out of gas in location",
-  "insufficient funds",
   "Generic error",
   "dispatch",
   "reply",
 ];
 
-export const REGEXP = {
-  COIN: /\d+((terra1[a-z0-9]{38})|(u[a-z]{1,4}))/g,
-  IBC: /(ibc)/g,
-};
+// export const REGEXP = {
+//   COIN: /\d+((terra1[a-z0-9]{38})|(u[a-z]{1,4}))/g,
+//   IBC: /(ibc)/g,
+// };
 
 const Parse = ({ msg }: { msg: string }) => {
   const failedMsgArray = msg
@@ -22,19 +22,27 @@ const Parse = ({ msg }: { msg: string }) => {
       if (ReplaceSentence.includes(sentence)) {
         return "";
       }
-      console.log(sentence.match(REGEXP.COIN));
 
       return sentence;
     })
     .filter(Boolean);
 
+  const str = isNumber(failedMsgArray[0])
+    ? failedMsgArray.slice(1).join(" ")
+    : failedMsgArray.join(" ");
+
   return (
     <>
-      {isNumber(failedMsgArray[0])
-        ? failedMsgArray.slice(1).join(" ")
-        : failedMsgArray.join(" ")}
+      <b>Reader</b> : {readError(msg) || str}
+      <br />
+      <br />
+      <b>Raw Logs</b> : {msg}
     </>
   );
+
+  // const abc = readError(msg);
+
+  // return <>{abc}</>;
 };
 
 export default Parse;
@@ -44,6 +52,5 @@ const isNumber = (str: string) => {
   if (isNaN(number)) {
     return false;
   }
-
   return true;
 };

@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { csv } from "d3";
-import csvFile from "./csv/data.csv";
+import csvFile from "./csv/data3.csv";
 import "./App.css";
 import Parse from "./Parse";
 

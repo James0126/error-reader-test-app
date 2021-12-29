@@ -5170,10 +5170,10 @@
   dependencies:
     "is-arrayish" "^0.2.1"
 
-"error-message-reader@^0.0.5-alpha":
-  "integrity" "sha512-lpr+f9Zm989MDi0/PgRt5z4aLa7o7oJeFejVM3Gmr6oia05zOllkFWP5Kv2AEimbcJ664VhY40CUIcEg+/pIcQ=="
-  "resolved" "https://registry.npmjs.org/error-message-reader/-/error-message-reader-0.0.5-alpha.tgz"
-  "version" "0.0.5-alpha"
+"error-message-reader@^0.0.11-alpha":
+  "integrity" "sha512-2IQAnIhTE4HUGs6ULhCML1XWEQCK4J7GKDnIF2bjUm8lg0zBHX/BCgfkADvKlOsN8XX0K9BDCtmk5fdzWxdtPg=="
+  "resolved" "https://registry.npmjs.org/error-message-reader/-/error-message-reader-0.0.11-alpha.tgz"
+  "version" "0.0.11-alpha"
 
 "error-stack-parser@^2.0.6":
   "integrity" "sha512-d51brTeqC+BHlwF0BhPtcYgF5nlzf9ZZ0ZIUQNZpc9ZB9qw5IJ2diTrBY9jlCJkTLITYPjmiX6OWCwH+fuyNgQ=="
